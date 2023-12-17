@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather forcast</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Weather Dashboard</a>
+        </div>
+      </nav>
+      <div class="input-group mb-3">
+        <input id="city-input" type="text" class="form-control" placeholder="Enter City name!" aria-label="Enter City name!" aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="button" id="search-btn">Search</button>
+      </div>
+      <h4 class="city"></h4>
+    <div class="card mx-auto" style="width: 100rem;">
+    <div class="card-body text-center">
+        <h3>Todays Weather 🌦</h3>
+        <h5 class="card-city"></h5>
+        <h6></h6>
+        <p class="weather-sum"></p>
+        <p class="humidity-current"></p>
+        <p class="wind-current"></p>
+    </div>
+</div>
+<H3>5 Day forecast: </H3>
+<style>
+    .custom-column {
+      margin-right: 10px;
+    }
+  </style>
+  
+  <div class="container">
+      <div class="row">
+          <div class="col-2 custom-column">
+              <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                      <h5 class="card-city1"></h5>
+                      <h6 class="date-1"></h6>
+                      <p class="weather-temp1"></p>
+                      <p class="humidity-1"></p>
+                      <p class="wind-1"></p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-2 custom-column">
+              <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                      <h5 class="card-city2"></h5>
+                      <h6 class="date-2"></h6>
+                      <p class="weather-temp2"></p>
+                      <p class="humidity-2"></p>
+                      <p class="wind-2"></p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-2 custom-column">
+              <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                      <h5 class="card-city3"></h5>
+                      <h6 class="date-3"></h6>
+                      <p class="weather-temp3"></p>
+                      <p class="humidity-3"></p>
+                      <p class="wind-3"></p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-2 custom-column">
+              <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                      <h5 class="card-city4"></h5>
+                      <h6 class="date-4"></h6>
+                      <p class="weather-temp4"></p>
+                      <p class="humidity-4"></p>
+                      <p class="wind-4"></p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-2 custom-column">
+              <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                      <h5 class="card-city5"></h5>
+                      <h6 class="date-5"></h6>
+                      <p class="weather-temp5"></p>
+                      <p class="humidity-5"></p>
+                      <p class="wind-5"></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <section>
+    <h3 class="recents"></h3>
+    <button class="cLocal">Clear local Storage</button>
+  </section>
+
+    
+      
+    <script src="./assets/script.js"></script>
+</body>
+</html>
