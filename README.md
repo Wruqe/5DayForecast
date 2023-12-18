@@ -1,3 +1,8 @@
+# 5 Day weather Forecast application
+
+## Languages used: JavaScript, CSS, HTML. 
+## Formatting, and API: JSON, OPENWEATHERMAP API
+
 Real-time Weather Updates: Receive current weather details for your chosen city, including temperature, humidity, and wind speed. 🌡️💦💨
 
 5-Day Forecast: Dive into the future with a comprehensive 5-day forecast. Plan your week with day-by-day weather predictions, ensuring you're prepared for whatever Mother Nature throws your way. 📅☀️🌧️
