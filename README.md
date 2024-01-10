@@ -12,3 +12,4 @@ Beautiful Weather Icons: Visualize the weather conditions with intuitive weather
 Local Storage Integration: Your recent searches are just a keystroke away! Our project leverages local storage to remember and display your past city searches. Never type the same city name twice! 🔄🔍
 
 Clear Local Storage Button: Feeling cluttered? Hit the "Clear" button to wipe your local storage clean. It's like a reset button for your weather history. 🗑️🌐
+https://wruqe.github.io/5DayForecast/
