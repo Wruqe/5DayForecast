@@ -1,4 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.input-group {
+    margin-top: 20px;
+}
+
+.card-title {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.card-city {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.weather-sum {
+    font-size: 1.1rem;
+}
+
+.humidity-current,
+.wind-current {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.recents {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
 
 .cLocal {
-    border-radius: 5rem;
+    font-size: 1rem;
 }
